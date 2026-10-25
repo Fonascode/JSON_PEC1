@@ -1,0 +1,33 @@
+{ 
+
+  "mes": 3, "anio": 2026, 
+
+  "horasFuncionamiento": 18420, "horasParada": 1980, 
+
+  "maquinasNuevas": 3, "maquinasEnOperacion": 42, 
+
+  "tiposMaquina": [ 
+
+    {"tipo": "fresadora", "horasFuncionamiento": 7260, "incidenciasCriticas": 9, 
+
+      "resumenLecturas": {"temperaturaMedia": 62.4, "temperaturaMaxima": 98.7, "consumoMedio": 14.8}}, 
+
+    {"tipo": "prensa", "horasFuncionamiento": 11160, "incidenciasCriticas": 10, 
+
+      "resumenLecturas": {"temperaturaMedia": 50.2, "temperaturaMaxima": 91.3, "consumoMedio": 18.1}} 
+
+  ], 
+
+  "tiposSensor": [ 
+
+    {"tipo": "temperatura", "numLecturas": 1284500, 
+
+      "maquinaMasAlertas": {"id": "M-017", "tipo": "fresadora", "numAlertas": 14}}, 
+
+    {"tipo": "vibracion", "numLecturas": 2569000, 
+
+      "maquinaMasAlertas": {"id": "P-004", "tipo": "prensa", "numAlertas": 11}} 
+
+  ] 
+
+} 
